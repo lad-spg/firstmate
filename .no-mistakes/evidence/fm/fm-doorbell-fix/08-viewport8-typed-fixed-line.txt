@@ -1,0 +1,8 @@
+     1	  habe ich danach nach handled/ verschoben. Im
+     2	  Eingang wartet nichts mehr.
+     3	
+     4	✻ Brewed for 7s · done 3:35 PM
+     5	
+     6	─────────────────────────────────────────────────────
+     7	❯ : Firstmate instruction waiting: read
+     8	  "$FM_TASK_INBOX"/*.msg in order, act, mv to

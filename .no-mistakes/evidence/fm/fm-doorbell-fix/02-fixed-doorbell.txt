@@ -1,0 +1,12 @@
+## Fix (bb74644 doorbell), same Claude in same 45x18 Herdr pane
+variant=new doorbell_len=90
+doorbell=: Firstmate instruction waiting: read "$FM_TASK_INBOX"/*.msg in order, act, mv to handled/
+fm_task_inbox_ring rc=0
+acted+acked after 7s
+marker: DONE
+inbox:
+/tmp/fm-doorbell-scr.8mui7G/home/state/fix-herdr-claude-doorbell-clipped-composer-narrow-pane-rc2.inbox:
+handled
+
+/tmp/fm-doorbell-scr.8mui7G/home/state/fix-herdr-claude-doorbell-clipped-composer-narrow-pane-rc2.inbox/handled:
+001.msg

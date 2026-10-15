@@ -1,0 +1,7 @@
+line(87)=: Firstmate instruction waiting: act on "$FM_TASK_INBOX"/*.msg in order, mv to handled/
+sh rc=0 out=''
+bash rc=0 out=''
+files created: 0
+fold -s -w 51:
+: Firstmate instruction waiting: act on 
+"$FM_TASK_INBOX"/*.msg in order, mv to handled/

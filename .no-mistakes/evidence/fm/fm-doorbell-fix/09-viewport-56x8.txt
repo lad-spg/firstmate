@@ -1,0 +1,9 @@
+## rect 58x10 (viewport 56x8): baseline doorbell
+variant=old doorbell_len=222
+doorbell=: Firstmate instruction waiting: list "$FM_TASK_INBOX"/*.msg in your 'fix-herdr-claude-doorbell-clipped-composer-narrow-pane-rc2.inbox' steering inbox, read and act on each in numeric order, then mv each into its handled/.
+fm_task_inbox_ring rc=2
+## rect 58x10 (viewport 56x8): fixed doorbell
+variant=new doorbell_len=90
+doorbell=: Firstmate instruction waiting: read "$FM_TASK_INBOX"/*.msg in order, act, mv to handled/
+fm_task_inbox_ring rc=0
+acted+acked after 26s: THIRD

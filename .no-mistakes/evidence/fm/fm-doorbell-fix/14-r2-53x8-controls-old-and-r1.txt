@@ -1,0 +1,15 @@
+## Control: base 9b1ada0 doorbell (long task name), same 53x8 pane
+variant=old doorbell_len=222
+doorbell=: Firstmate instruction waiting: list "$FM_TASK_INBOX"/*.msg in your 'fix-herdr-claude-doorbell-clipped-composer-narrow-pane-rc2.inbox' steering inbox, read and act on each in numeric order, then mv each into its handled/.
+fm_task_inbox_ring rc=2
+record=/tmp/fm-doorbell-scr.b7KqhS/home/state/fix-herdr-claude-doorbell-clipped-composer-narrow-pane-rc2.inbox/003.msg
+## Control: round-1 bb74644 doorbell (90 chars), same 53x8 pane
+variant=r1 doorbell_len=90
+doorbell=: Firstmate instruction waiting: read "$FM_TASK_INBOX"/*.msg in order, act, mv to handled/
+fm_task_inbox_ring rc=2
+record=/tmp/fm-doorbell-scr.b7KqhS/home/state/fix-herdr-claude-doorbell-clipped-composer-narrow-pane-rc2.inbox/004.msg
+pending (unacked) records:
+003.msg
+004.msg
+handled
+acted-log: cat: /tmp/fm-doorbell-scr.b7KqhS/acted-log: No such file or directory

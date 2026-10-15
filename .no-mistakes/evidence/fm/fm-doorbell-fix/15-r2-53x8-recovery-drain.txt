@@ -1,0 +1,19 @@
+## Recovery: new doorbell after the two failed control rings drains the backlog in order
+variant=new doorbell_len=87
+doorbell=: Firstmate instruction waiting: act on "$FM_TASK_INBOX"/*.msg in order, mv to handled/
+fm_task_inbox_ring rc=0
+record=/tmp/fm-doorbell-scr.b7KqhS/home/state/fix-herdr-claude-doorbell-clipped-composer-narrow-pane-rc2.inbox/005.msg
+waited 4x2s
+acted-log:
+OLD
+R1
+NEW
+/tmp/fm-doorbell-scr.b7KqhS/home/state/fix-herdr-claude-doorbell-clipped-composer-narrow-pane-rc2.inbox:
+handled
+
+/tmp/fm-doorbell-scr.b7KqhS/home/state/fix-herdr-claude-doorbell-clipped-composer-narrow-pane-rc2.inbox/handled:
+001.msg
+002.msg
+003.msg
+004.msg
+005.msg

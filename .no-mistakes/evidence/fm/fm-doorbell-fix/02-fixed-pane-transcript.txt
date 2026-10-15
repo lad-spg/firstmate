@@ -1,0 +1,16 @@
+  Reading the steering inbox messages
+  ⎿  $ echo DONE > /tmp/fm-doorbell-scr.8mu
+     i7G/acted-marker && mv
+     "$FM_TASK_INBOX"/001.msg
+     "$FM_TASK_INBOX"/handled/ && cat /tmp/
+     fm-doorbell-scr.8mui7G/acted-marker &&
+     ls "$FM_TASK_INBOX"
+     "$FM_TASK_INBOX"/handled
+
+* Noodling… (6s · thought for 1s)
+
+───────────────────────────────────────────
+❯
+───────────────────────────────────────────
+  Opus 5.5 | ctx 5% | Woche 93% | Reset …
+  ⏵⏵ bypass permissions on (shift+tab to

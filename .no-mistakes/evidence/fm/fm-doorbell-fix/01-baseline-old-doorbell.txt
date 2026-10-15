@@ -1,0 +1,4 @@
+## Baseline (pre-fix doorbell from 9b1ada0), Claude in 45x18 Herdr pane
+variant=old doorbell_len=222
+doorbell=: Firstmate instruction waiting: list "$FM_TASK_INBOX"/*.msg in your 'fix-herdr-claude-doorbell-clipped-composer-narrow-pane-rc2.inbox' steering inbox, read and act on each in numeric order, then mv each into its handled/.
+fm_task_inbox_ring rc=2

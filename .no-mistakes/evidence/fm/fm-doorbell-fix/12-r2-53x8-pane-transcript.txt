@@ -1,0 +1,8 @@
+     "$FM_TASK_INBOX/handled/" && ls "$FM_TASK_INBOX"
+     "$FM_TASK_INBOX/handled"
+
+✶ Flummoxing… (7s · ↓ 441 tokens · thought for 1s)
+
+─────────────────────────────────────────────────────
+❯
+─────────────────────────────────────────────────────
