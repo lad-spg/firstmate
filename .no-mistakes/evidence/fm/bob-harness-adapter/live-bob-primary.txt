@@ -1,0 +1,11 @@
+## live bob 2.0.9 primary in lab tmux (clean env)
+ Execute Command (completed)
+ Command: bash bin/fm-harness.sh; echo "rc=$?"; bash bin/fm-lock.sh; echo "lockrc=$?"; cat "$FM_HOME/state/.lock"
+lock file: 791880
+    PID    PPID COMMAND         COMMAND
+ 791880  791834 MainThread      /home/ladwein/.nvm/versions/node/v24.21.0/bin/node /home/ladwein/.nvm/versions/node/v24.21.0/bin/bob
+
+## Bob tool output (captured from pane)
+bash bin/fm-harness.sh -> bob (rc=0)
+bash bin/fm-lock.sh   -> lock acquired: harness pid 791880 (lockrc=0)
+cat $FM_HOME/state/.lock -> 791880  (MainThread, node .../bin/bob)
