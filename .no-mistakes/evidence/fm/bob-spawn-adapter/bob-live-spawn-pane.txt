@@ -1,0 +1,12 @@
+                                                                       This folder is trusted because a parent folder is trusted.
+                                                                   Users should independently verify accuracy of AI-generated content.
+  (ℹ) Logged in as sebastian.ladwein@specific-group.com
+ ❯ Read the brief at /tmp/fm-lab.hCHeqB/data/bob-live-1/launch-brief.md and follow it exactly.
+ Read File /tmp/fm-lab.hCHeqB/data/bob-live-1/launch-brief.md (cancelled)
+• The tool is blocked from reading outside the workspace. To proceed, you need to enable "Allow outside workspace tool requests" in Bob's settings, or copy the brief into the workspace so I can read
+   it.
+  Alternatively, you can paste the contents of the brief directly into the chat.
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ❯   Build Anything, @ for context, / for commands, $ for skills
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Agent Mode (auto-approve) · 18.3k / 270.0k (7%) · 0.073 🅞

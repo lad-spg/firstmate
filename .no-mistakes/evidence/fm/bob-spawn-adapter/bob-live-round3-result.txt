@@ -1,0 +1,7 @@
+BOB_LIVE_PROOF.txt: bob-brief-read-ok
+eaabc41 Add BOB_LIVE_PROOF.txt
+08d8164 init
+git status (untracked-all): []
+status file: done [at=1793712466]: ready in branch fm/bob-live-3
+busy-state: v1 gen=g1793712450.1860620.25849 seq=3 state=idle source=bob-hook event=stop ts=1793712467
+bob-live-3.turn-ended

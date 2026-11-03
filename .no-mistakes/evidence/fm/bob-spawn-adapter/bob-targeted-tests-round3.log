@@ -1,0 +1,32 @@
+== fm-bob-harness
+ok - fm-spawn: bob launches bare, registers trust and hooks, and delivers its brief pointer
+ok - fm-spawn: bob withholds the pointer until the composer is ready
+ok - fm-spawn: bob fails loudly when the brief pointer delivery is unconfirmed
+ok - fm-spawn: bob refuses to replace a tracked .bob/settings.json
+ok - fm-spawn: bob is refused as a secondmate
+== fm-composer-lib
+ok - fm_composer_extract_selected_content: scopes user content and excludes furniture
+ok - fm_composer_queued_enter_verdict: pending + busy returns empty (queued Enter)
+ok - fm_composer_queued_enter_verdict: pending + idle/unknown stays pending
+ok - fm_composer_queued_enter_verdict: only proven pending is converted
+ok - the Claude background-task exit picker stays pending and receives no confirming Enter
+ok - a buried heading or a different last line is not the exit picker
+ok - a dialog note without a sink skips the match, and release leaves a caller RETURN trap
+ok - picker text quoted above a normal composer is not read as a live picker
+ok - fm_composer_strip_ghost: on kiro, near-gray ghost strips while near-gray real text and a chromatic glyph survive
+ok - fm_composer_strip_ghost: on kiro, palette greys strip while bright, chromatic and theme-remapped indexes survive
+ok - composer widening: the near-gray ceiling, palette greys, and hinted idle row apply on kiro only
+ok - bob's idle composer reads empty and typed text reads pending (live frame)
+== fm-harness-precedence
+ok - an agreeing marker keeps Pi's finer identity that ancestry cannot prove
+ok - Bob's marker names bob only when no nearer marker or structural ancestor does
+ok - an interpreter script-path match answers alone but never outranks a marker
+ok - a native harness binary under an interpreter shim decides at comm strength
+ok - a harness that is pid 1 of its own namespace is examined, not skipped
+ok - the descent probe reaches comm strength where the top-of-session probe sees only args
+ok - the descent probe reports no verdict from a sibling branch detection cannot reach
+ok - a foreign args-only verdict at the deepest vantage leaves the comm-strength identity intact
+ok - equal-depth descent ties prefer the comm-strength leaf regardless of spawn order
+ok - a supervision branch resolves own, crew, and secondmate to the primary's pinned harness
+ok - a supervision branch refuses to resolve a harness from a pin that names none
+ok - session start renders the Codex protocol for a Codex primary holding a retained CLAUDECODE

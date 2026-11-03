@@ -1,0 +1,52 @@
+                                                                         ───────────────────── Welcome to ─────────────────────
+                                                                         ▀▀▀▀▀▀▀▀▀▀▀▀▀▀       ▀▀▀▀▀▀▀▀▀▀▀▀     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                                                                         ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                                                                           ▀▀▀▀     ▀▀▀▀▀   ▀▀▀▀        ▀▀▀▀     ▀▀▀▀     ▀▀▀▀▀
+                                                                           ▀▀▀▀▀▀▀▀▀▀▀▀▘    ▀▀▀▀        ▀▀▀▀     ▀▀▀▀▀▀▀▀▀▀▀▀▘
+                                                                           ▀▀▀▀▀▀▀▀▀▀▀▀▘    ▀▀▀▀        ▀▀▀▀     ▀▀▀▀▀▀▀▀▀▀▀▀▘
+                                                                           ▀▀▀▀     ▀▀▀▀▀   ▀▀▀▀        ▀▀▀▀     ▀▀▀▀     ▀▀▀▀▀
+                                                                         ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                                                                         ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀      ▀▀▀▀▀▀▀▀▀▀▀▀     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                                                                         ░░░░░░░░░█▀▀▀░░░░█░░█░░░░█▀▀▀░░░░█░░░░░░░█░░░░░░░░░░░░
+                                                                         ░░░░░░░░░▀▀▀█░░░░█▀▀█░░░░█▀▀▀░░░░█░░░░░░░█░░░░░░░░░░░░
+                                                                         ░░░░░░░░░▀▀▀▀░░░░▀░░▀░░░░▀▀▀▀░░░░▀▀▀▀░░░░▀▀▀▀░░░░░░░░░
+                                                                          ─────────────────── Version 2.0.9 ───────────────────
+                                                                                              Did you know?
+                                                                                   Use Shift+Tab to cycle through modes
+                                                                            You can use `bob -r` to resume a previous session
+                                                                                  You can use Ctrl+J to write a new line
+                                                                                     ~/.treehouse/demo-3a911a/1/demo
+                                                                       This folder is trusted because a parent folder is trusted.
+                                                                   Users should independently verify accuracy of AI-generated content.
+  (ℹ) Logged in as sebastian.ladwein@specific-group.com
+ ❯ Read the brief at /home/ladwein/.treehouse/demo-3a911a/1/demo/.bob/launch-brief.md and follow it exactly.
+ Read File /home/ladwein/.treehouse/demo-3a911a/1/demo/.bob/launch-brief.md (completed)
+• Now I'll follow the brief step by step. First, verify isolation, then create the branch, write the file, commit, and report done.
+ Execute Command (completed)
+ Command: pwd -P && git -C /home/ladwein/.treehouse/demo-3a911a/1/demo rev-parse --show-toplevel
+ /home/ladwein/.treehouse/demo-3a911a/1/demo
+ /home/ladwein/.treehouse/demo-3a911a/1/demo
+• Both resolve to the worktree - isolation confirmed. Now create the branch:
+ Execute Command (completed)
+ Command: git -C /home/ladwein/.treehouse/demo-3a911a/1/demo checkout -b fm/bob-live-3 --
+ Stderr:
+ Switched to a new branch 'fm/bob-live-3'
+ Write File /home/ladwein/.treehouse/demo-3a911a/1/demo/BOB_LIVE_PROOF.txt (completed)
+╭─────────────────────────────────────────────────────────────────────────────────────╮
+│ 1 + bob-brief-read-ok                                                               │
+╰─────────────────────────────────────────────────────────────────────────────────────╯
+ Execute Command (completed)
+ Command: git -C /home/ladwein/.treehouse/demo-3a911a/1/demo add BOB_LIVE_PROOF.txt && git -C /home/ladwein/.treehouse/demo-3a911a/1/demo commit -m "Add BOB_LIVE_PROOF.txt"
+ [fm/bob-live-3 eaabc41] Add BOB_LIVE_PROOF.txt
+  1 file changed, 1 insertion(+)
+  create mode 100644 BOB_LIVE_PROOF.txt
+• Committed. Now report done to the status file:
+ Execute Command (completed)
+ Command: echo "done [at=$(date +%s)]: ready in branch fm/bob-live-3" >> '/tmp/fm-lab.CVEQ5e/state/bob-live-3.status' && { [ ! -e '/tmp/fm-lab.CVEQ5e/config/fleet-ledger' ] ||
+ '/home/ladwein/.no-mi...
+ Command completed with no output.
+• Done. BOB_LIVE_PROOF.txt (BOB_LIVE_PROOF.txt) has been created with the exact text bob-brief-read-ok, committed on branch fm/bob-live-3.
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ❯   Build Anything, @ for context, / for commands, $ for skills
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Agent Mode (auto-approve) · 22.7k / 270.0k (8%) · 0.303 🅞

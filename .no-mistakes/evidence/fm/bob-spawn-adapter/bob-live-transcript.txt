@@ -1,0 +1,25 @@
+== spawn 1 (real bob, real tmux/treehouse, lab home)
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /tmp/fm-lab.IRMScY
+warning: /tmp/fm-lab.IRMScY/data/bob-live-1/launch-brief.md records no ship branch; defaulting to legacy branch fm/bob-live-1
+warning: /tmp/fm-lab.IRMScY/data/bob-live-1/launch-brief.md records no delivery contract line (scaffolded before ship briefs recorded one); launching on the explicit --mode no-mistakes - confirm its definition of done matches
+error: bob did not show a verified ready signal before brief delivery in window firstmate:fm-bob-live-1; inspect window firstmate:fm-bob-live-1
+warning: leaving task bob-live-1's slot claim on /tmp/fm-lab.IRMScY/sbhome/.treehouse/demo-52df9e/1/demo in place; the Treehouse project lock is no longer held, so the next spawn's claim replaces it
+rc=1
+
+== real bob composer classification (fm_backend_composer_state tmux)
+cursor-anchored: unknown ; cursorless: unknown (pane shows '  ❯   Build Anything...' between two rule lines, no cursor reported)
+
+== tracked .bob/settings.json spawn
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /tmp/fm-lab.IRMScY
+warning: /tmp/fm-lab.IRMScY/data/bob-live-2/launch-brief.md records no ship branch; defaulting to legacy branch fm/bob-live-2
+warning: /tmp/fm-lab.IRMScY/data/bob-live-2/launch-brief.md records no delivery contract line (scaffolded before ship briefs recorded one); launching on the explicit --mode no-mistakes - confirm its definition of done matches
+error: /tmp/fm-lab.IRMScY/sbhome/.treehouse/demo-52df9e/2/demo tracks its own .bob/settings.json; firstmate writes its turn-end and busy-state hooks to that path, so it would replace the project's committed Bob settings; refusing to launch a bob worker; inspect window firstmate:fm-bob-live-2
+rc=1
+
+== secondmate spawn
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /tmp/fm-lab.IRMScY
+error: bob is a verified crewmate/scout adapter only and cannot run a secondmate; it has no primary supervision protocol. Select a harness verified for secondmates.
+rc=1
+
+== hook proof: busy mid-turn -> 'busy bob-hook'; after turn -> 'idle bob-hook' + turn-ended file
+== negative control: BOB_SESSION=1 unstripped -> 'Fatal error: Nested session not allowed'; stripped launch command starts bob normally

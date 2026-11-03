@@ -1,0 +1,13 @@
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /tmp/fm-lab.hCHeqB
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no watcher has a fresh beacon (last beat: never, grace 300s).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  watcher supervision needs Stop-owned automatic recovery; inspect the hook registration and startup status before ending the turn.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+warning: /tmp/fm-lab.hCHeqB/data/bob-tr/launch-brief.md records no ship branch; defaulting to legacy branch fm/bob-tr
+warning: /tmp/fm-lab.hCHeqB/data/bob-tr/launch-brief.md records no delivery contract line (scaffolded before ship briefs recorded one); launching on the explicit --mode local-only - confirm its definition of done matches
+notice: bob-tr ships mode=local-only while the standing posture for tracked is no-mistakes - less rigor than the captain's standing posture; proceed only on a current explicit captain instruction or an intake judgment you can state
+error: /home/ladwein/.treehouse/tracked-c9e0d4/1/tracked tracks its own .bob/settings.json; firstmate writes its turn-end and busy-state hooks to that path, so it would replace the project's committed Bob settings; refusing to launch a bob worker; inspect window primary:fm-bob-tr
+RC=1
